@@ -19,3 +19,29 @@ console.log(`I generated the number ${random_number}`)
 
 // ***  Your code goes below  ***
 
+// converting celsius to fahrenheit
+let celsius = 100
+let fahrenheit = 0
+celsius = celsius + 2
+fahrenheit = (celsius * 9/5) + 32
+console.log(fahrenheit)
+
+// converting fahrenheit to celsius
+fahrenheit = 77
+celsius = (fahrenheit - 32) * 5/9
+console.log(celsius)
+
+// creating sentences
+console.log(`${fahrenheit} degrees fahrenheit is ${celsius} degrees celsius.`)
+
+// finding slopes
+let m = (0 - 5) / (6 - -4)
+console.log(m)
+
+// randomizing the volume of a cylinder
+let cylinder_radius = Math.random() * 10
+cylinder_radius = cylinder_radius **2
+let cylinder_height = Math.random() * 10
+let cylinder_volume = Math.PI * cylinder_radius * cylinder_height
+cylinder_volume = Math.round(cylinder_volume)
+console.log(`the volume of my cylinder is ${cylinder_volume}.`)
