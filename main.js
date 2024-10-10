@@ -39,8 +39,7 @@ let m = (0 - 5) / (6 - -4)
 console.log(m)
 
 // randomizing the volume of a cylinder
-let cylinder_radius = Math.random() * 10
-cylinder_radius = cylinder_radius **2
+let cylinder_radius = Math.random() * 10 **2
 let cylinder_height = Math.random() * 10
 let cylinder_volume = Math.PI * cylinder_radius * cylinder_height
 cylinder_volume = Math.round(cylinder_volume)
